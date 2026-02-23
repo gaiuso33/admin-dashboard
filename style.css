@@ -1,0 +1,69 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: grid;
+}
+#profile{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+#projectSection{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+#projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#extra{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: auto;
+}
+#announcements{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#trendSection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+#trending{
+    display: flex;
+    flex-direction: row;
+}
+#trending-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+#trending-item div{
+    display:flex;
+    flex-direction: column;
+}
+button{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
